@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+{
+<link rel="stylesheet" href="Style.Css">
+}
+<style>
+p {
+border: calc(100% - 5rem);
+}
+.button{
+    width: calc(25% - 10rem);
+    height: var(--height);
+    color: lightblue;
+}
+.element{
+    width: 300px;
+    background: red;
+}
+
+@media all and (min-width: 600px) {
+    .element{
+width: 400px;
+    }
+}
+
+@media print{
+    .element{
+        width: 400px;
+    }
+}
+@media all and (aspect-ratio: 11/6) {
+    .element {
+        height: 10px;
+    }
+}
+img {
+    height: 400px;
+    width:400px
+}
+p {
+text-align: center;
+}
+.header {
+    font-size: 40px;
+    color: blue;
+    display: inline-block;
+}
+
+.table{
+display: table;
+}
+.table-row{
+    display: table;
+}
+.table-cell{
+display: table-cell;
+}
+html{
+    background-color: lightblue;
+}
+h2 {
+    text-align: center;
+}
+
+
+img {
+text-align: center;
+}
+.li {
+display: flex;
+}
+.ol {
+display: flex;
+text-align: center;
+}
+.ul {
+    display: flex;
+    text-align: centers;
+    
+}
+.ol {
+    margin: auto;
+    border: 1px solid #f97200;
+    color: #fff;
+    width: 190px;
+    padding: 10px;
+    background: #f99f53;
+    box-sizing: border-box;
+}
+div class ul {
+    margin: auto;
+}
+.li:hover {
+transform: translate(1rem);
+animation: move around 1s ease 0s infinite reverse both;
+}
+.image-container {
+    width: fit-content;
+    height: fit-content;
+    padding: 15rem;
+
+
+}
+button {
+    display: flex;
+    color: blue;
+    padding: initial;
+    margin: auto;
+    display: inline-block;
+    width: 70px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.head {
+display: inline-block;
+}
+.button {
+    display: inline-flex ;
+
+}
+
+</style>
+<div class="header">
+<header>
+ <button onclick="window.location.href='Page 2.html'">
+ Interests
+ </button>
+ </header>
+</div>
+<div class="head">
+ <head>
+ <button onclick="window.location.href='History.html'">
+ History
+ </button>
+</head>
+</div>
+<body>
+<div class="button">
+<button onclick="myFunction()">Dark Mode</button>
+</div>
+<h2>
+Markus George
+</h2>
+<p>
+Welcome to my Webpage! Here you will be able to see my many interests and my history. Keep reading for more!
+</p>
+<p>
+My name is Markus George and I am a 9th grader at Harvard Westlake. I enjoy reading, Basketball and Improv. I have lived in California since 2013.
+</p>
+
+<p>
+I really hope you enjoy learning about me.
+
+</p>
+<img src="https://www.tripsavvy.com/thmb/C4DIPO7DKoQlBPOLkrsQx4PFIH0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/Where_is_MD_map-2-575eeab55f9b58f22ebae1e2.jpg">
+
+</div>
+<footer>
+&copy;Markus George
+</footer>
+Photograph from Marshall
+</body>
+<script>
+function myFunction() {
+var element = document.body
+element.classList.toggle("dark-mode")
+}
+</script>
+</html>

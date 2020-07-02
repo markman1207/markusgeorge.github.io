@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=k, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Open+Sans+Condensed:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+{
+    <link rel="stylesheet" href="Style.Css">
+}
+<style>
+p {
+border: calc(100% - 5rem);
+}
+.button{
+    width: calc(25% - 10rem);
+    height: var(--height);
+    color: lightblue;
+}
+.element{
+    width: 300px;
+    background: red;
+}
+
+@media all and (min-width: 600px) {
+    .element{
+width: 400px;
+    }
+}
+
+@media print{
+    .element{
+        width: 400px;
+    }
+}
+@media all and (aspect-ratio: 11/6) {
+    .element {
+        height: 10px;
+    }
+}
+img {
+    height: 400px;
+    width:400px
+}
+p {
+text-align: center;
+}
+.header {
+    font-size: 40px;
+    color: blue;
+    display: inline-flex;
+}
+
+.table{
+display: table;
+}
+.table-row{
+    display: table;
+}
+.table-cell{
+display: table-cell;
+}
+html{
+    background-color: lightblue;
+}
+h2 {
+    text-align: center;
+}
+
+
+img {
+text-align: center;
+}
+.li {
+display: flex;
+}
+.ol {
+display: flex;
+text-align: center;
+}
+.ul {
+    display: flex;
+    text-align: centers;
+    
+}
+.ol {
+    margin: auto;
+    border: 1px solid #f97200;
+    color: #fff;
+    width: 190px;
+    padding: 10px;
+    background: #f99f53;
+    box-sizing: border-box;
+}
+div class ul {
+    margin: auto;
+}
+.li:hover {
+transform: translate(1rem);
+animation: move around 1s ease 0s infinite reverse both;
+}
+.image-container {
+    width: fit-content;
+    height: fit-content;
+    padding: 15rem;
+
+
+}
+button {
+    display: flex;
+    color: blue;
+    padding: initial;
+    margin: auto;
+    display: inline-block;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.head {
+    display: flex;
+}
+.button {
+    display: inline-flex ;
+
+}
+
+</style>
+<body>
+<button onclick="window.location.href='Project Page.html'"">
+Home Page
+</button>
+<button onclick="window.location.href='Page 2.html'">
+Interests
+</button>
+ <header>
+     <font face="Georgia"></font>
+History of myself
+ </header> 
+ <button onclick="myfunction()">Dark Mode</button>
+ <h2>
+A few things to note
+ </h2>
+ <ol>
+<li>Date of birth: Dec 7, 2006</li>
+<li>I have only lived in California since 2013.</li>
+<li>My family is from Maryland and Oakland.</li>
+ </ol>
+ <p>
+I was born in Hampton,Virginia on Dec 7,2006. My parents were still in college, so my grandma watched me during the day.
+I don't remember a lot happening at that time, so I'm just going to skip ahead to when I was about 3 when we moved to Maryland.
+While I was in Maryland, the biggest thing that I remember happening was going to Washington D.C to watch the Washington Nationals
+play. I remember the stadium looking like a giant spaceship because I was so young and so small. I lived with my mom,dad,aunt,grandpa and grandma along with my brother.
+When I was about 6, we moved here to Los Angeles.
+</p>
+<p>
+When I moved to Los Angeles, I skipped a grade so instead of going to Kindergarden, I went straight to first grade at Windsor Hills Elementary school. I went there for a year before going to El Rincon Elementary School from 2nd to 5th Grade. When I graduated Elementary School I went to Culver City Middle School.
+</p>
+<div class="image-container">
+    <img src="http://www.ballparksandbrews.com/wp-content/uploads/2011/12/100_37161.jpg"> <alt="The last nationals game I remember was against the Philadelphia Phillies."> 
+   </div>
+</body>
+<script>
+function myFunction() {
+var element = document.body;
+element.classList.toggle("dark-mode");
+}
+</script>
+</html>
